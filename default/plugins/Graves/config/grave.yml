@@ -60,7 +60,7 @@ settings:
       block:
         enabled: true # Should grave blocks be enabled.
         material: PLAYER_HEAD # Material: PLAYER_HEAD, CHEST, BEACON.
-        walk-over: false # Should graves be looted if the block is walked over.
+        walk-over: true # Should graves be looted if the block is walked over.
         offset:
           x: 0 # Block offset X.
           y: 0 # Block offset Y.
@@ -75,7 +75,7 @@ settings:
       ############
       # If you are running PaperMC you can set armor-stands-tick to false for improved performance without impacting any functionality.
       hologram:
-        enabled: true # Should holograms be created.
+        enabled: false # Should holograms be created.
         marker: true # Should the hologram be a marker, you can't interact with markers.
         height-line: 0.28 # How far apart should holograms be from each-other.
         offset:
@@ -117,7 +117,7 @@ settings:
       ############
       # Teleportation options.
       teleport:
-        enabled: true # Can the entity teleport to their grave from the Graves GUI.
+        enabled: false # Can the entity teleport to their grave from the Graves GUI.
         cost: 5 # How much it costs to teleport to a grave, you need Vault for this.
         cost-different-world: 20 # Extra cost added on top of cost if the grave is in a different world.
         cost-distance-increase: true # Increase the price the further away the grave is.
@@ -129,7 +129,7 @@ settings:
       ###########
       # How the items are saved in graves, compact mode stacks all items and puts them into a small as possible inventory. exact mode matches the players inventory exactly.
       storage:
-        mode: COMPACT # Storage mode: COMPACT, EXACT, CHESTSORT (Requires ChestSort).
+        mode: EXACT # Storage mode: COMPACT, EXACT, CHESTSORT (Requires ChestSort).
 
       ##############
       # Experience #
@@ -142,7 +142,7 @@ settings:
       # Respawn #
       ###########
       respawn:
-        compass: true # Should entities be given a compass to their last grave when they respawn. (Only works for players)
+        compass: false # Should entities be given a compass to their last grave when they respawn. (Only works for players)
         compass-time: 300 # How long should the entity be given a compass on respawn after the grave was first created.
         function: "none" # Should we run a function after respawning, you can use menu and list among the other functions.
 
@@ -180,7 +180,7 @@ settings:
       ############
       # Put an obituary for the entity in the grave.
       obituary:
-        enabled: true # Should obituaries be enabled.
+        enabled: false # Should obituaries be enabled.
         title: "&c%owner_name%'s Obituary"
         author: "%killer_name%"
         glow: true # Should the obituary glow.
