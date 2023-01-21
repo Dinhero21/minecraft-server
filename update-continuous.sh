@@ -1,4 +1,4 @@
 while [ true ]
 do
-  bsah update.sh
+  bash update.sh
 done
