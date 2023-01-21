@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 169.150.196.18
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1674075197153
+  login: 1674075190799
+money: '0'
+last-account-name: Dinhero21
+logoutlocation:
+  world: dbcc3c56-9610-4831-a13d-182a6954380e
+  world-name: world
+  x: 258.5
+  y: 95.0
+  z: -269.5
+  yaw: -108.909423828125
+  pitch: -90.0

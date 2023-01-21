@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 189.55.127.197
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1674267804036
+  login: 1674253480077
+money: '0'
+logoutlocation:
+  world: dbcc3c56-9610-4831-a13d-182a6954380e
+  world-name: world
+  x: 211.69209608310535
+  y: 106.0
+  z: -180.96504372727554
+  yaw: -102.035888671875
+  pitch: 22.653392791748047
+last-account-name: RealDinhero21
+lastlocation:
+  world: dbcc3c56-9610-4831-a13d-182a6954380e
+  world-name: world
+  x: 210.7663069567842
+  y: 101.0
+  z: -177.30000001192093
+  yaw: -31.13735580444336
+  pitch: 14.338254928588867

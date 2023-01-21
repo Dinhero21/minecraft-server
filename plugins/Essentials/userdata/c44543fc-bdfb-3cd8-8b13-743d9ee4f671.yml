@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1672597834636
+  login: 1672597797437
+money: '0'
+last-account-name: Amogus
+logoutlocation:
+  world: dbcc3c56-9610-4831-a13d-182a6954380e
+  world-name: world
+  x: 234.52261532592837
+  y: 63.0
+  z: -10.025802233865138
+  yaw: -102.568115234375
+  pitch: 27.61651039123535
+lastlocation:
+  world: dbcc3c56-9610-4831-a13d-182a6954380e
+  world-name: world
+  x: 237.18289680173004
+  y: 64.0
+  z: 0.8844553945872679
+  yaw: 176.985107421875
+  pitch: 34.205020904541016

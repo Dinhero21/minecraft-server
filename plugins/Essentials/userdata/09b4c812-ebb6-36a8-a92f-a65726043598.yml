@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 96.59.58.190
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1674267957385
+  login: 1674255657281
+money: '0'
+last-account-name: E11eman
+logoutlocation:
+  world: dbcc3c56-9610-4831-a13d-182a6954380e
+  world-name: world
+  x: 121.5
+  y: 155.0
+  z: -212.5
+  yaw: -178.80001831054688
+  pitch: -0.15000002086162567
+lastlocation:
+  world: dbcc3c56-9610-4831-a13d-182a6954380e
+  world-name: world
+  x: 209.22870493605984
+  y: 101.0
+  z: -183.76249998807907
+  yaw: 126.68632507324219
+  pitch: -8.66817569732666

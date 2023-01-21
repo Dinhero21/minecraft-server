@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 169.150.196.18
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1674075215752
+  login: 1674075209397
+money: '0'
+last-account-name: maid_eva
+logoutlocation:
+  world: dbcc3c56-9610-4831-a13d-182a6954380e
+  world-name: world
+  x: 323.44962816078737
+  y: 109.0
+  z: -196.0032891089619
+  yaw: -163.16001892089844
+  pitch: -90.0

@@ -1,0 +1,44 @@
+##################################################################
+#                          FarmAssist                            #
+##################################################################
+use-permissions: true
+##################################################################
+#                        Global Settings                         #
+##################################################################
+# Anything set under global settings will be globally set,
+# Even if you give the permission these settings will override it.
+# Example:
+# player has farmassist.wheat
+# wheat:
+#   Enabled: false
+# player won't be able to auto-replant wheat.
+wheat:
+    enabled: true
+    replant-when-ripe: true
+    plant-on-till: false
+sugar_cane:
+    enabled: false
+nether_wart:
+    enabled: true
+    replant-when-ripe: true
+cocoa:
+    enabled: true
+    replant-when-ripe: true
+carrots:
+    enabled: true
+    replant-when-ripe: true
+potatoes:
+    enabled: true
+    replant-when-ripe: true
+beetroots:
+    enabled: true
+    replant-when-ripe: true
+cactus:
+    enabled: false
+worlds:
+    enable-per-world: false
+    enabled-worlds:
+    - ExampleWorld
+check-for-updates: true
+language: en
+debug: false
