@@ -617,14 +617,14 @@ settings:
                   - "Levels: &f%level%"
                   - "Death Location: &f%world_formatted%, %x%x, %y%y, %z%z"
 
-              1:
-                material: "ENDER_PEARL"
-                function: "teleportation"
-                name: "Teleport"
-                glow: false
-                model-data: -1
-                lore:
-                  - "Teleport to your grave"
+              # 1:
+              #   material: "ENDER_PEARL"
+              #   function: "teleportation"
+              #   name: "Teleport"
+              #   glow: false
+              #   model-data: -1
+              #   lore:
+              #     - "Teleport to your grave"
 
               #2: # Toggle protection on and off, you can uncomment this if you want.
               #  material: "TRIPWIRE_HOOK"
