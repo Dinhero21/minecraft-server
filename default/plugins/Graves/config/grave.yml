@@ -75,7 +75,7 @@ settings:
       ############
       # If you are running PaperMC you can set armor-stands-tick to false for improved performance without impacting any functionality.
       hologram:
-        enabled: false # Should holograms be created.
+        enabled: true # Should holograms be created.
         marker: true # Should the hologram be a marker, you can't interact with markers.
         height-line: 0.28 # How far apart should holograms be from each-other.
         offset:
@@ -83,9 +83,10 @@ settings:
           y: -0.28 # Hologram offset Y.
           z: 0 # Hologram offset Z.
         line:
-          - "&c%owner_name_display%'s &rGrave"
-          - "&r%item%&a♯&c/&r%level%&e♦ &c| %time_alive_remaining_formatted%"
-          - "&cDeath: &f%killer_name_display% &c☠"
+          - "RIP &c%owner_name_display%&r"
+          - "&c%time_alive_remaining_formatted%&r left"
+          - "&a%item%&r&7/&r&e%level%&r"
+          - "&c&lKilled&r &cby&r &f%killer_name_display%&r"
 
       ##############
       # Protection #
