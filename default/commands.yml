@@ -3,3 +3,109 @@ ignore-vanilla-permissions: false
 aliases:
   icanhasbukkit:
   - version $1-
+
+  # Add minecraft prefix
+  ban:
+  - minecraft:ban $1-
+  ban-ip:
+  - minecraft:ban-ip $1-
+  clear:
+  - minecraft:clear $1-
+  gamemode:
+  - minecraft:gamemode $1-
+  give:
+  - minecraft:give $1-
+  help:
+  - minecraft:help $1-
+  item:
+  - minecraft:item $1-
+  kick:
+  - minecraft:kick $1-
+  kill:
+  - minecraft:kill $1-
+  list:
+  - minecraft:list $1-
+  me:
+  - minecraft:me $1-
+  msg:
+  - minecraft:msg $1-
+  pardon:
+  - minecraft:pardon $1-
+  recipe:
+  - minecraft:recipe $1-
+  clone:
+  - minecraft:clone $1-
+  data:
+  - minecraft:data $1-
+  effect:
+  - minecraft:effect $1-
+  enchant:
+  - minecraft:enchant $1-
+  experience:
+  - minecraft:experience $1-
+  xp:
+  - minecraft:xp $1-
+  fill:
+  - minecraft:fill $1-
+  replaceitem:
+  - minecraft:replaceitem $1-
+  summon:
+  - minecraft:summon $1-
+  teleport:
+  - minecraft:teleport $1-
+  tp:
+  - minecraft:tp $1-
+
+  # Comment   commands you want the server to     have access to
+  # Uncomment commands you want the server to NOT have access to
+
+  # minecraft:ban:
+  # - []
+  # minecraft:ban-ip:
+  # - []
+  minecraft:clear:
+  - []
+  minecraft:gamemode:
+  - []
+  minecraft:give:
+  - []
+  # minecraft:help:
+  # - []
+  minecraft:item:
+  - []
+  # minecraft:kick:
+  # - []
+  # minecraft:kill:
+  # - []
+  # minecraft:list:
+  # - []
+  # minecraft:me:
+  # - []
+  # minecraft:msg:
+  # - []
+  # minecraft:pardon:
+  # - []
+  # minecraft:recipe:
+  # - []
+  minecraft:clone:
+  - []
+  minecraft:data:
+  - []
+  minecraft:effect:
+  - []
+  minecraft:enchant:
+  - []
+  minecraft:experience:
+  - []
+  minecraft:xp:
+  - []
+  minecraft:fill:
+  - []
+  minecraft:replaceitem:
+  - []
+  minecraft:summon:
+  - []
+  minecraft:teleport:
+  - []
+  minecraft:tp:
+  - []
