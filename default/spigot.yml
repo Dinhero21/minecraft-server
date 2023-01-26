@@ -45,12 +45,12 @@ commands:
   tab-complete: 0
   send-namespaced: true
 messages:
-  restart: Server is restarting
-  whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
+  restart: "The server is restarting..."
+  whitelist: "You are not currently in the whitelist. If you were part of the whitelist in the past you were most probably not directly removed from the whitelist because critical server files such as whitelist.json have been corrupted before."
+  unknown-command: "Unknown command. Type \"/help\" for help."
+  server-full: "Way too many people boi!"
+  outdated-client: "Outdated client! Please use {0}"
+  outdated-server: "Outdated server! I'm still on {0}"
 world-settings:
   default:
     below-zero-generation-in-existing-chunks: true
