@@ -47,8 +47,6 @@ aliases:
   - minecraft:xp $1-
   fill:
   - minecraft:fill $1-
-  replaceitem:
-  - minecraft:replaceitem $1-
   summon:
   - minecraft:summon $1-
   teleport:
@@ -100,8 +98,6 @@ aliases:
   minecraft:xp:
   - []
   minecraft:fill:
-  - []
-  minecraft:replaceitem:
   - []
   minecraft:summon:
   - []
