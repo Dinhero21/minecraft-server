@@ -5,6 +5,7 @@ aliases:
   - version $1-
 
   # Add minecraft prefix
+  
   ban:
   - minecraft:ban $1-
   ban-ip:
